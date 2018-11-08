@@ -12,6 +12,13 @@ selector {
 /* Type Selector */
 
 p { /* select all <p> */
-  font-size: 16px; /* 16px (default), ?pt (not always the same), 100% (relative), 1em (usually = 16px) */
+  font-size: 16px; /* 16px (default), ?pt (not always the same), 100% (relative), 1em (1em = 16px) */
   line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;
 }
